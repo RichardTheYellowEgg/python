@@ -1,0 +1,16 @@
+h=#logical operator: (and, or, not)
+# x=3
+# print(x > 2 and x < 5)
+# print(x > 1 or x < 4)
+# print (not(x > 1 and x< 8))
+#identity operator:(is, is not)
+x=["why","would","you"]
+y=["do","this","to","me"]
+z=y
+print(y is z)
+print(x is z)
+print(x is not z)
+#membershit operators:(in, not it)
+x=["what","huh?"]
+print("a" not in x)
+print("huh?" in x)
