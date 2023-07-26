@@ -1,0 +1,94 @@
+#python tuples:
+#used to store multiple items in a single variable
+#order but they are unchangeable
+#we use round brackets
+#create a tuple:
+myTuple=("kiwi","pear","apple")
+print(myTuple)
+#get the type
+print(type(myTuple))
+#get the length:
+print(len(myTuple))
+#allows duplicate values:
+myTuple=("kiwi","pear","apple","kiwi","pear","apple")
+print(myTuple)
+myTuple=("kiwi","pear","apple",1,34,2,3,True,2.432,87j)
+print(myTuple)
+#tuple()constuctor
+myTuple=tuple(("sdwdasd","Wadasdwada","i have to go to work"))
+print(myTuple)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#practice 1
+x=(1,2,3j,"text",1.23,"text")
+print(x)
+print(len(x))
+print(type(x))
+y=tuple(("sdadasdadafqwd","that was not ok"))
+print(y)
+
+#access items
+print(x[3])
+print(x[3:6])
+#negative indexing
+print(x[-3:-1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x=(1,2,3,4,5,6)
+print(x[1:4])
+print(x[-3:-1])
