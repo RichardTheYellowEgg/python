@@ -1,0 +1,185 @@
+#update tuples
+x=("one","and","3","and")
+y=list(x)
+y[2]="2"
+x=tuple(y)
+print(x)
+# x=("1",2,3.4,5j,False)
+# y=list(x)
+# x[0:4]=[True]
+# x=tuple(y)
+# print(x)
+#append():
+x=(1,2,3,4)
+y=list(x)
+y.append(5)
+x=tuple(y)
+print(x)
+#remove():
+y=list(x)
+y.remove(5)
+x=tuple(y)
+print(x)
+#delete tuple:
+# del x
+# print(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# practice 1
+y=(1,2,3,4,5)
+x=list(y)
+x.append(6)
+y=tuple(x)
+print(y)
+x=list(y)
+x.remove(6)
+y=tuple(x)
+print(y)
+x=list(y)
+x[4]="five"
+y=tuple(x)
+print(y)
+x=list(y)
+x[0:2]="one"
+y=tuple(x)
+print(y)
+# del y
+# print(y)
+
+# join tuples:
+text1=(1,2,3,4,5,6)
+text2=(7,8,9,10)
+text3=text1+text2
+print(text3)
+print(text1,text2)
+#multiply tuples:
+x=("a","b","c","d")
+y=x*3
+print(y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#practice 2
+x=(1,2,3)
+y=(4,5,6)
+z=x+y
+print(z)
+print(x+y)
+a=z*3
+print(a)
+
+
+#unpacking a tuple
+(wait,a,porky)=x
+print(wait)
+print(a)
+print(porky)
+#looping tuple
+x=(1,2,3,4)
+for x in x:
+    print(x)
+x=(1,2,3,4)
+for i in range(len(x)):
+    print(x[i])
+#while loop
+x=(1,2,3,4)
+i=0
+while i<len(x):
+    print(x[i])
+    i=i+1
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+#practice 3
+(a,b,c,d)=x
+print(a)
+print(b)
+print(c)
+print(d)
+x=(1,2,3,4,5)
+for x in x:
+    print(x)
+i=0
+x=(1,2,3,4,5,6)
+for i in range(len(x)):
+    print(x[i])
+i=0
+while i<len(x):
+    print(x[i])
+    i=i+1
