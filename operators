@@ -1,4 +1,4 @@
-h=#logical operator: (and, or, not)
+#logical operator: (and, or, not)
 # x=3
 # print(x > 2 and x < 5)
 # print(x > 1 or x < 4)
